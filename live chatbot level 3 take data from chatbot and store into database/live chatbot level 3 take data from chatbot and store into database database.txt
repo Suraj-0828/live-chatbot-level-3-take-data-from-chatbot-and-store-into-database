@@ -1,0 +1,16 @@
+================ live chatbot level 3 take data from chatbot and store into database database ==================
+
+
+CREATE DATABASE chatbot;
+
+USE chatbot;
+
+CREATE TABLE chatbot_responses (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    phone VARCHAR(15) NOT NULL,
+    reg_date TIMESTAMP
+);
+
+
+================ database ==================
